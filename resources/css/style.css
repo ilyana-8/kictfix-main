@@ -1,0 +1,55 @@
+body {font-family: "Lato", sans-serif;}
+
+.sidebar {
+    height: 100%;
+    width: 200px; /* Increased width to accommodate the logo */
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px; /* Increased padding to accommodate the logo */
+  }
+
+  .sidebar a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+  }
+
+  .sidebar a.user {
+    padding: 4px 8px 4px 16px; /* Adjusted padding for user links */
+    font-size: 16px; /* Smaller font size for user links */
+  }
+
+  .sidebar a.report {
+    padding: 4px 8px 4px 16px; /* Adjusted padding for report links */
+    font-size: 16px; /* Smaller font size for report links */
+  }
+
+  .sidebar .section-title {
+    padding: 8px 8px 8px 16px; /* Adjusted padding for section titles */
+    font-size: 20px; /* Larger font size for section titles */
+    color: #fff; /* White color for section titles */
+  }
+
+  .sidebar .section-title.small {
+    font-size: 14px; /* Smaller font size for section titles */
+  }
+
+  .sidebar-divider {
+    border-top: 1px solid #666; /* Line divider style */
+    margin-top: 20px; /* Space between sections */
+  }
+
+  .sidebar-logo {
+    text-align: center;
+  }
+
+  .sidebar-logo img {
+    width: 80%; /* Adjust the logo size as needed */
+    margin-bottom: 10px; /* Space below the logo */
+  }
